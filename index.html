@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>My Media Player</title>
+    <link href="CSS/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Souvenir vacances</h1>
+    <section class="player">
+
+        <video controls>
+            <source src="media/Sans titre.mp4" type="video/mp4">
+        </video>
+            <div class="controls">
+                <div id="seek-bar">
+                    <div id="fill"></div>
+                </div>
+                <button class="playpause">Play</button>
+                <button class="stop"><img src="media/stop.svg" width="45px" height="16px"></button>
+                <button class="rwd"><img src="media/bwd.svg" width="45px" height="16px"></button>
+                <button class="fwd"><img src="media/fwd.svg" width="45px" height="16px"></button>
+                <div class="time">00:00</div>
+                <input type="range" id="volume" min="0" max="1" value="0.40" step="0.20" onchange="changeVolume()"/>
+            </div>
+    </section>
+
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
+</html>
