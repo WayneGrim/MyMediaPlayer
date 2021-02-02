@@ -19,6 +19,13 @@ playPauseBtn.onclick = function () {
         playPauseBtn.textContent = 'Play';
     }
 };
+// if (player.paused) {
+//     player.play();
+//     playPauseBtn.style.background = "url(MEDIA/pse.svg) no-repeat";
+// } else {
+//     player.pause();
+//     playPauseBtn.style.background = "url(MEDIA/play.svg) no-repeat";}
+// };
 
 
 stopBtn.onclick = function () {
